@@ -1,2 +1,2 @@
 i#!/bin/bash
-gcc -c $CFILE "${$CFILE%.c}.o"
+gcc -c $CFILE -o interm
