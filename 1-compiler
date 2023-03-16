@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -Wall -funsigned-char $CFILE.c -o $CFILE
