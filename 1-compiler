@@ -1,2 +1,2 @@
-#!/bin/bash
-gcc -Wall -funsigned-char $CFILE.c -o $CFILE
+i#!/bin/bash
+gcc -c $CFILE "${$CFILE%.c}.o"
