@@ -2,12 +2,14 @@
 /**
  * add - Adds two integers
  *
- *@k: number one.
- *@h: number two.
+ *@k: frist input
+ *@h: second input
  *
- * Return: Add of Two Numbers
+ * Return: sum of a & b
  */
-int add(int k, int h)
+int add(int a, int b)
 {
-	return (k + h);
+	int sum = a + b;
+
+	return (sum);
 }
