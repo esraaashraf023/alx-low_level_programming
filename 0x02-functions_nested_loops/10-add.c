@@ -1,4 +1,4 @@
-#include "main.h"
+include "main.h"
 /**
  * add - Adds two integers
  *
@@ -9,5 +9,11 @@
  */
 int add(int k, int h)
 {
-	return (k + h);
+ return (k + h);
 }
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
