@@ -14,15 +14,15 @@ int _sqrt_recursion(int n)
 	}
 	else if (n > 1)
 	{
-		int j = 1;
+		int i = 1;
 
-		while (j <= n / 2)
+		while (i <= n / 2)
 		{
-			if (j * j == n)
+			if (i * i == n)
 			{
-				return (j);
+				return (i);
 			}
-			j++;
+			i++;
 		}
 	}
 	return (-1);
