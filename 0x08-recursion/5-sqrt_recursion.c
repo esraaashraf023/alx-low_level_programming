@@ -1,5 +1,7 @@
 #include "main.h"
 
+int _sqrt(int n, int j);
+
 /**
  * _sqrt_recursion -  returns the natural square root of a number
  * @n: the natural square root of a number
@@ -8,22 +10,22 @@
  */
 int _sqrt_recursion(int n)
 {
-	if (n == 0 || n == 1)
-	{
-		return (n);
-	}
-	else if (n > 1)
-	{
-		int i = 1;
+	return (_sqrt(n, 1));
+}
 
-		while (i <= n / 2)
-		{
-			if (i * i == n)
-			{
-				return (i);
-			}
-			i++;
-		}
-	}
-	return (-1);
+/**
+ * * _sqrt_recursion -  returns the natural square root of a number
+ * @n: the natural square root of a number
+ *
+ * Return: void
+ */
+int _sqrt_recursion(int n)
+{
+	int sqrt = j * j;
+	
+	if (sqrt > n)
+		return (-1);
+	if (sqrt == n)
+		return (j);
+	return (_sqrt(n, j + 1));
 }
