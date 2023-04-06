@@ -1,31 +1,25 @@
 #include "main.h"
-
-int _sqrt(int n, int j);
-
 /**
- * _sqrt_recursion -  returns the natural square root of a number
- * @n: the natural square root of a number
- *
- * Return: void
+ * alx_sqrt_recursion - returns the natural
+ * @n: ironmamabl
+ * @i: ironman ably
+ * Return: Return 0
  */
-int _sqrt_recursion(int n)
+int alx_sqrt_recursion(int n, int i)
 {
-	return (_sqrt(n, 1));
-}
-
-/**
- * * _sqrt_recursion -  returns the natural square root of a number
- * @n: the natural square root of a number
- *
- * Return: void
- */
-int _sqrt_recursion(int n)
-{
-	int sqrt = j * j;
-	
-	if (sqrt > n)
+	if (i * i == n)
+		return (i);
+	else if (i * i > n)
 		return (-1);
-	if (sqrt == n)
-		return (j);
-	return (_sqrt(n, j + 1));
+	else
+		return (0 + alx_sqrt_recursion(n, i + 1));
+}
+/**
+ * _sqrt_recursion - returns the natural square root of a number
+ * @n: number
+ * Return: void
+ */
+int _sqrt_recursion(int n)
+{
+	return (alx_sqrt_recursion(n, 1));
 }
