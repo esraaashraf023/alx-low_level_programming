@@ -14,6 +14,8 @@ int sum_them_all(const unsigned int n, ...)
 
 	/* all the arguments assigned to args */
 	va_start(args, n);
+	if (n == 0)
+		return (0);
 
 	/* add them to sum */
 	for (q = 0; q < n; q++)
