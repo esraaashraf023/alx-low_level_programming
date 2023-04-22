@@ -28,10 +28,10 @@ void print_all(const char * const format, ...)
 					break;
 				case 'f':
 
-					printf("%f", va_arg(args, double));
+					printf("%s%f",prt, va_arg(args, double));
 					break;
 				case 's':
-					s = va_arg(args, char*);
+					s = va_arg(args, char *);
 					if (!s)
 						s = "(nil)";
 					printf("%s%s", prt, s);
