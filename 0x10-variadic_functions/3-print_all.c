@@ -1,3 +1,4 @@
+
 #include "variadic_functions.h"
 
 /**
@@ -27,7 +28,7 @@ void print_all(const char * const format, ...)
 					break;
 				case 'f':
 
-					printf("%s%f", va_arg(args, double));
+					printf("%f", va_arg(args, double));
 					break;
 				case 's':
 					s = va_arg(args, char*);
