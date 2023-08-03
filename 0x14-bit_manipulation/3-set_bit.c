@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * set_bit -  that sets the value of a bit to 1 at a given index
- * @n: pointer
- * @index: the index
+ * set_bit -  that sets the value of a bit to 1 at a given index.
+ * @n: pla pla
+ * @index: bla bla
  *
  * Return: 1 if it worked, or -1 if an error occurred
  */
